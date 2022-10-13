@@ -1,0 +1,118 @@
+ /*Inicio reset pag*/
+
+ * {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /*Fim reset pag*/
+
+ /*Inicio comando de gradiente*/
+
+ .gradiente {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 90vh;
+     width: 90vw;
+     background: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
+     background-size: 300% 300%;
+     animation: colors 15s ease infinite;
+ }
+
+ @keyframes colors {
+     0% {
+         background-position: 0% 50%;
+     }
+
+     50% {
+         background-position: 100% 50%;
+     }
+
+     100% {
+         background-position: 0% 50%;
+     }
+
+     /*Fim comando de gradiente*/
+
+     /*Inicio comandos para o formulário*/
+
+ }
+
+ .formulario {
+     text-align: center;
+     box-shadow: 0 4px 8px #999;
+     margin-left: 100px;
+ }
+
+ /*Fim comandos para o formulário*/
+
+ /*Inicio comandos para os botões,inputs e links*/
+
+ .botão {
+     background-color: white;
+     border: 1px solid rgb(21, 4, 98);
+     color: rgb(21, 4, 98);
+     font-weight: bold;
+     padding: 8px;
+     border-radius: 4px;
+ }
+
+ #nome {
+     background-color: white;
+     border: 1px solid rgb(21, 4, 98);
+     color: rgb(21, 4, 98);
+     font-weight: bold;
+     padding: 15px;
+     border-radius: 4px;
+ }
+
+ #email {
+     background-color: white;
+     border: 1px solid rgb(21, 4, 98);
+     color: rgb(21, 4, 98);
+     font-weight: bold;
+     padding: 15px;
+     border-radius: 4px;
+ }
+
+ #mensagem {
+     background-color: white;
+     border: 1px solid rgb(21, 4, 98);
+     color: rgb(21, 4, 98);
+     font-weight: bold;
+     padding: 15px;
+     border-radius: 4px;
+ }
+
+ .link {
+     background-color: transparent;
+     color: rgb(21, 4, 98);
+     font-weight: bold;
+     border-radius: 4px;
+ }
+
+ .Voltar {
+     background-color: white;
+     border: 1px solid rgb(21, 4, 98);
+     color: rgb(21, 4, 98);
+     font-weight: bold;
+     padding: 15px;
+     border-radius: 4px;
+ }
+
+ /*Fim comandos para os botões,inputs e links*/
+
+ /*Inicio comandos margem*/
+
+ #insta {
+     margin-left: 100px;
+ }
+
+ /*Fim comandos margem*/
+
+ /*Inicio comando para deixar a label em negrito*/
+ label {
+     font-weight: bolder;
+ }
+
+ /*Fim do comando para deixar a label em negrito*/
